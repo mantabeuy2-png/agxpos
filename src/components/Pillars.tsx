@@ -39,7 +39,7 @@ export const Pillars: React.FC = () => {
   ];
 
   return (
-    <section id="pilar-section" className="py-16 md:py-24 bg-white border-y border-slate-100">
+    <section id="pilar-section" className="py-16 md:py-24 bg-[#E3FAFF] border-y border-sky-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <h2 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-blue-600 mb-2">

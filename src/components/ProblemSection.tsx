@@ -42,7 +42,7 @@ export const ProblemSection: React.FC = () => {
   ];
 
   return (
-    <section id="masalah" className="py-16 md:py-24 bg-slate-50/80 border-t border-slate-200/60">
+    <section id="masalah" className="py-16 md:py-24 bg-[#E3FAFF] border-t border-sky-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <h2 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-blue-600 mb-2">
