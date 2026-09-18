@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Store, ShieldCheck, FileText, X } from 'lucide-react';
+import { ShieldCheck, FileText, X } from 'lucide-react';
+import { AgxLogo } from './AgxLogo';
 
 export const Footer: React.FC = () => {
   const [legalModalContent, setLegalModalContent] = useState<{
@@ -38,9 +39,7 @@ export const Footer: React.FC = () => {
           {/* Logo & Tagline */}
           <div className="max-w-md">
             <div className="flex items-center gap-2.5 mb-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-xs">
-                <Store className="w-5 h-5" />
-              </div>
+              <AgxLogo className="w-8 h-8" primaryColor="#38BDF8" accentColor="#DE1153" />
               <span className="text-xl font-bold tracking-tight text-white">
                 Agx<span className="text-blue-500">POS</span>
               </span>

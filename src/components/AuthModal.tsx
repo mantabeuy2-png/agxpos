@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { X, Store } from 'lucide-react';
+import { X } from 'lucide-react';
+import { AgxLogo } from './AgxLogo';
 import { PlanType, UserSession } from '../types';
 import { TrialForm } from './auth/TrialForm';
 import { LoginForm } from './auth/LoginForm';
@@ -141,9 +142,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
         {/* Modal Header & Brand */}
         <div className="flex items-center gap-2.5 mb-6">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-xs">
-            <Store className="w-5 h-5" />
-          </div>
+          <AgxLogo className="w-8 h-8" />
           <div>
             <span
               id="auth-modal-title"

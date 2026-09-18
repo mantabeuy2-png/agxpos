@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { AgxLogo } from './AgxLogo';
 import {
   Store,
   LayoutDashboard,
@@ -183,9 +184,7 @@ export const TabletKasirApp: React.FC<TabletKasirAppProps> = ({
           <div>
             {/* Brand Header */}
             <div className="p-3.5 border-b border-[#0e3b68]/80 flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-sky-500 flex items-center justify-center text-white shadow-xs">
-                <Store className="w-5 h-5" />
-              </div>
+              <AgxLogo className="w-8 h-8" primaryColor="#38BDF8" accentColor="#DE1153" />
               <div className="truncate">
                 <div className="flex items-center gap-1.5">
                   <span className="text-sm font-bold text-white tracking-tight">AgxPOS</span>

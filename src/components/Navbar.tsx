@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Store, Menu, X, ArrowRight, Tablet } from 'lucide-react';
+import { Menu, X, ArrowRight, Tablet } from 'lucide-react';
+import { AgxLogo } from './AgxLogo';
 
 interface NavbarProps {
   onOpenAuth: (tab: 'trial' | 'login') => void;
@@ -49,8 +50,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAuth, onOpenDemo }) => {
           className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded-xl"
           aria-label="AgxPOS Beranda"
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-blue-500 to-cyan-400 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform duration-200">
-            <Store className="w-5 h-5" />
+          <div className="w-10 h-10 flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
+            <AgxLogo className="w-10 h-10" />
           </div>
           <div className="flex flex-col">
             <span className="text-2xl font-bold tracking-tight text-slate-900 leading-none flex items-center gap-1">
